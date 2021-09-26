@@ -1,0 +1,63 @@
+body {
+  background-color: #fff;
+}
+
+#shoppingform {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #ececef;
+  border-bottom: 1px solid #cccccf;
+  z-index: 1;
+}
+
+#mainwrap {
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+#shoppinglist {
+  padding-top: 50px;
+}
+#shoppinglist li {
+  display: block;
+  list-style-type: none;
+  line-height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #cccccf;
+  padding-left: 20px;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+}
+#shoppinglist li .delete-button {
+  float: right;
+  padding-right: 30px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#shoppinglist li .delete-button span {
+  background-color: #fff;
+  color: #cccccf;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 160%;
+  transform: rotate(45deg);
+  font-weight: 300;
+}
+#shoppinglist .done {
+  font-weight: 300;
+  color: #cccccf;
+  text-decoration-line: line-through;
+}
+#shoppinglist .done .delete-button span {
+  color: #000003;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=shoppinglist.css.map */

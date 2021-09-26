@@ -1,0 +1,41 @@
+<!--
+ Created by Marc Meierhof at 17.09.2021
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GK30 Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shoppinglist.css">
+</head>
+<body>
+<div id="mainnavopener">
+    <p id="mainnavopener-one"></p>
+    <p id="mainnavopener-two"></p>
+    <p id="mainnavopener-three"></p>
+</div>
+<nav id="mainnav">
+    <ul>
+        <li><a href="#">info</a></li>
+    </ul>
+</nav>
+<div id="mainwrap">
+    <form id="shoppingform" method="post" action="">
+        <div class="gk-searchline">
+            <input type="text" id="textfield" placeholder="neuer Eintrag">
+            <button type="submit" id="addButton" class="fontawesome-ok"></button>
+        </div>
+    </form>
+    <ul id="shoppinglist"></ul>
+</div>
+
+<script src="main.js"></script>
+<script src="shoppinglist.js"></script>
+</body>
+</html>

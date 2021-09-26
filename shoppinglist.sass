@@ -1,0 +1,65 @@
+$black: #000003
+$navOpenerHeight: 50px
+$mainwrapPadding: 20px
+$white: #ececef
+$borderColor: #cccccf
+
+body
+  background-color: #fff
+
+#shoppingform
+  position: fixed
+  top: $navOpenerHeight
+  right: 0
+  left: 0
+  padding: 10px
+  background-color: $white
+  border-bottom: 1px solid $borderColor
+  z-index: 1
+
+#mainwrap
+  padding-right: 0 !important
+  padding-bottom: 0 !important
+  padding-left: 0 !important
+
+#shoppinglist
+  padding-top: 50px
+
+  li
+    display: block
+    list-style-type: none
+    line-height: 40px
+    background-color: #fff
+    border-bottom: 1px solid $borderColor
+    padding-left: $mainwrapPadding
+    transition: all 0.5s ease-in-out
+    font-weight: bold
+
+    .delete-button
+      float: right
+      padding-right: 30px
+      padding-left: 10px
+      cursor: pointer
+
+      span
+        background-color: #fff
+        color: $borderColor
+        display: block
+        width: 40px
+        height: 40px
+        text-align: center
+        border-radius: 50%
+        font-size: 160%
+        transform: rotate(45deg)
+        font-weight: 300
+
+  .done
+    font-weight: 300
+    color: $borderColor
+    text-decoration-line: line-through
+
+    .delete-button
+
+      span
+        color: $black
+        font-weight: bold
